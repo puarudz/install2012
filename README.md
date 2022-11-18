@@ -8,4 +8,5 @@ bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/wind
 ### Login Information:
 
 >Username: Administrator
+
 >Password: 1@Dailysieure
