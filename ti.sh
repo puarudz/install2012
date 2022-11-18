@@ -39,7 +39,7 @@ export ipGate=$4
 export DISK=$5
 export ipDNS='8.8.8.8'
 export setNet='0'
-export tiIso='https://dailysieure.com/install-vps-windows/free.iso'
+export tiIso='https://github.com/puarudz/install2012/raw/main/free.iso'
 REBOOT="reboot=1"
 
 if [ "$(id -u)" != "0" ]; then
