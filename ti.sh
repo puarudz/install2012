@@ -39,7 +39,6 @@ export ipGate=$4
 export DISK=$5
 export ipDNS='8.8.8.8'
 export setNet='0'
-#export tiIso='https://license.vsicloud.com/paid_linux.iso'
 export tiIso='https://raw.githubusercontent.com/puarudz/install2012/main/paid_linux_origin.iso'
 REBOOT="reboot=1"
 
