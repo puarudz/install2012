@@ -7,7 +7,7 @@ rm ti.sh
 ipAddr=$(curl https://dailysieure.com/ip)
 #ipAddr=$("$ipAddr" | cut -d' ' -f 1)
 echo "Ip cua ban la $ipAddr"
-LINK="https://dailysieure.com/check-lic-vps-windows/$ipAddr"
+LINK="https://license.vsicloud.com/windows-install.php?action=ip"
 echo "Tai file $LINK"
 DAILYSIEUREIP=$(curl ${LINK})
 echo "Xong, Dang cai dat cho VPS IP $ipAddr"
