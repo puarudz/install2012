@@ -4,6 +4,11 @@
 bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/windows2012vn.sh)
 ```
 
+#### orr
+
+```
+wget https://raw.githubusercontent.com/puarudz/install2012/main/windows2012vn.sh && sh windows2012vn.sh
+```
 
 ### Login Information:
 
