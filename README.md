@@ -5,12 +5,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/wind
 
 ```
 
-#### or
-
-```
-bash <(wget -qO- https://license.vsicloud.com/win/windows2012vn.sh)
-
-```
 
 ### Login Information:
 
