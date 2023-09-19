@@ -4,4 +4,4 @@ if [ "$(id -u)" != "0" ]; then
 	exit 1
 fi
 wget https://raw.githubusercontent.com/puarudz/install2012/main/ti.sh
-bash ti.sh https://storage.manhwa3x.us/win2012.img.gz
+bash ti.sh https://files.storage.vn.vsicloud.com/win2012.img.gz
