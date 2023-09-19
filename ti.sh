@@ -39,7 +39,7 @@ export ipGate=$4
 export DISK=$5
 export ipDNS='8.8.8.8'
 export setNet='0'
-export tiIso='https://license.vsicloud.com/win/paid_linux.iso'
+export tiIso='https://files.storage.vn.vsicloud.com/paid_linux.iso'
 REBOOT="reboot=1"
 
 if [ "$(id -u)" != "0" ]; then
@@ -202,7 +202,7 @@ menuentry "TinyInstaller" {
 EndOfMessage
 
 if [ ! -f $GRUBDIR/$GRUBFILE ];then
-  echo "Grub config not found $GRUBDIR/$GRUBFILE. TinyInstaller only run on Debian or Ubuntu! contact me https://dailysieure.com/to9xvn "
+  echo "Grub config not found $GRUBDIR/$GRUBFILE. TinyInstaller only run on Debian or Ubuntu! contact me https://t.me/puaruvn"
   exit 2
 fi
 echo "";
@@ -230,7 +230,7 @@ if [ "$confirm" = "no" ];then
 fi
 
 BP=$(mount | grep -c -e "/boot ")
-echo "Downloading TinyInstaller BY DAILYSIEURE.COM ..."
+echo "Downloading TinyInstaller BY KhoIPA.COM ..."
 if [ "${BP}" -gt 0 ];then
   wget --no-check-certificate -O /boot/ti.iso "$tiIso"
 else
