@@ -24,9 +24,13 @@ bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/test
 
 ```
 
-### Access Windows Server 2012
+### Access Windows Server 2012:
+
 >Username : Administrator
+
 >Password : P@ssword64
+
+
 Activation Windows Server 2012 R2 Standard
 # Open CMD
 DISM /online /Get-TargetEditions
