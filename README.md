@@ -1,7 +1,7 @@
 # install2012
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/windows2012vn.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/install-win.sh)
 
 ```
 
@@ -10,7 +10,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/puarudz/install2012/main/wind
 
 >Username: Administrator
 
->Password: 1@Dailysieure
+>Password: Datnguyentv.com
 
 
 
