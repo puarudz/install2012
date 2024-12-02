@@ -4,4 +4,4 @@ if [ "$(id -u)" != "0" ]; then
 	exit 1
 fi
 wget https://raw.githubusercontent.com/puarudz/install2012/main/ti.sh
-bash ti.sh https://archive.org/download/windows4vpsisorecoverrrq11/windows10.gz
+bash ti.sh http://drive.muavps.net/windows/Windows2019.gz
